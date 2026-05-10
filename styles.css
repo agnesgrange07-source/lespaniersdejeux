@@ -1036,3 +1036,45 @@ section {
     font-size: 4rem;
   }
 }
+
+/* ====== Promesse 30 min ====== */
+.promesse-30 {
+  background: var(--jaune-clair);
+  padding: 50px 0;
+}
+
+.promesse-30 .promesse-card {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  background: var(--blanc);
+  border-radius: var(--radius);
+  padding: 28px 32px;
+  box-shadow: var(--ombre);
+  border-left: 6px solid var(--corail);
+}
+
+.promesse-30 .promesse-icon {
+  font-size: 3rem;
+  flex-shrink: 0;
+}
+
+.promesse-30 h2 {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+
+.promesse-30 p {
+  color: #555;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .promesse-30 .promesse-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+    padding: 24px;
+  }
+  .promesse-30 .promesse-icon { font-size: 2.5rem; }
+}
